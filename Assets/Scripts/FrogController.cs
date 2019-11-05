@@ -17,10 +17,16 @@ public class FrogController : MonoBehaviour
         if(Input.GetKey(KeyCode.A))
 		{
 			transform.position += new Vector3(-WalkSpeed, 0f, 0f) * Time.deltaTime;
+			Animator.SetBool("walking", true);
 		}
-		if (Input.GetKey(KeyCode.D))
+		else if (Input.GetKey(KeyCode.D))
 		{
 			transform.position += new Vector3(WalkSpeed, 0f, 0f) * Time.deltaTime;
+			Animator.SetBool("walking", true);
+		}
+		else
+		{
+			Animator.SetBool("walking", false);
 		}
 	}
 }
