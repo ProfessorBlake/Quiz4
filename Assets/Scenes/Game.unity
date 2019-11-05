@@ -213,7 +213,6 @@ GameObject:
   m_Component:
   - component: {fileID: 953879842}
   - component: {fileID: 953879843}
-  - component: {fileID: 953879845}
   - component: {fileID: 953879844}
   m_Layer: 0
   m_Name: Frog
@@ -248,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4d0f31b12d21cd41a045cc014fe4272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Animator: {fileID: 953879845}
+  Animator: {fileID: 0}
   WalkSpeed: 3
 --- !u!212 &953879844
 SpriteRenderer:
@@ -300,25 +299,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &953879845
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953879841}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ddc3614324df28a4a8ce8803d0e84ae8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1783344939
 GameObject:
   m_ObjectHideFlags: 0
